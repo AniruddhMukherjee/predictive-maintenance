@@ -1,0 +1,4 @@
+Model,RMSE,MAE,NASA Score
+XGBoost,19.39,13.97,752.65
+LSTM,15.19,11.05,367.96
+Transformer,14.97,10.94,343.87

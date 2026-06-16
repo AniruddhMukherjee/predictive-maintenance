@@ -7,6 +7,7 @@ from features import run_feature_pipeline
 # from models.xgboost_model import train, predict_test, save_model
 from models.xgboost_model import train as xgb_train, predict_test as xgb_predict, save_model as xgb_save
 from models.lstm_model import train as lstm_train, predict_test as lstm_predict, save_model as lstm_save
+from models.transformer_model import train as tf_train, predict_test as tf_predict, save_model as tf_save
 from evaluate import evaluate
 
 def main():
@@ -49,6 +50,14 @@ def main():
     lstm_preds = lstm_predict(lstm_model, test_df)
     evaluate(actuals, lstm_preds, model_name="LSTM")
     lstm_save(lstm_model)
+
+    # Transformer
+    print("\n Transformer")
+    transformer_model = tf_train(train_df)
+    tf_preds = tf_predict(transformer_model, test_df)
+    evaluate(actuals, tf_preds, model_name="Transformer")
+    tf_save(transformer_model)
+    
 
 if __name__ == '__main__':
     main()
