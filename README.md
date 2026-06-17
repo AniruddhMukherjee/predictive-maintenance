@@ -167,7 +167,7 @@ streamlit run app/streamlit_app.py
 
 Full project build log documenting every step — data pipeline, feature engineering, model architecture decisions, training results, and deployment notes.
 
-[📥 Download Build Log (DOCX)](https://drive.google.com/file/d/1djdtoVnZmMBcyIfzANJwPLpuVkCxUT8Z/view?usp=sharing)
+[📥 Download / View Build Log](https://drive.google.com/file/d/1djdtoVnZmMBcyIfzANJwPLpuVkCxUT8Z/view?usp=sharing)
 
 ---
 
