@@ -17,7 +17,7 @@ Unplanned equipment failure costs industrial manufacturers an estimated **$50 bi
 
 **Predictive Maintenance** changes this: by monitoring real-time sensor data and predicting remaining useful life (RUL), maintenance teams can intervene *exactly when needed* — before failure, but not wastefully early.
 
-This project demonstrates a full ML pipeline for RUL prediction directly applicable to Industry 4.0 use cases at companies like **Bosch, Festo, Mercedes-Benz, and Siemens**.
+This project demonstrates a full ML pipeline for RUL prediction directly applicable to Industry 4.0 use cases at production based companies.
 
 ---
 
